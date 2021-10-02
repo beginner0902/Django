@@ -56,7 +56,7 @@ ROOT_URLCONF = 'ViceVersa.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['templates', 'blog/templates', 'project/templates'],
+        'DIRS': ['project/templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
